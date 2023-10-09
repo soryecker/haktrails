@@ -29,7 +29,7 @@ func main() {
 		fmt.Println("Error finding home dir:", err)
 		return
 	}
-	defaultConfigFile := home + "/.config/haktools/haktrails-config.yml"
+	defaultConfigFile := "haktrails-config.yml"
 
 	if len(os.Args) <= 1 {
 		help()
